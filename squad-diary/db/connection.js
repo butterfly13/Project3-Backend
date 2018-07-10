@@ -5,7 +5,7 @@ const request = require("request");
 if (process.env.NODE_ENV === "production") {
   mongoose.connect(process.env.MLAB_URL);
 } else {
-  mongoose.connect("mongodb://localhost/squad-diary");
+  mongoose.connect("mongodb://localhost/squaddiary");
 }
 
 mongoose.Promise = Promise;
