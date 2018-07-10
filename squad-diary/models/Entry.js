@@ -1,9 +1,9 @@
-const mongoose = require('mongoose')
+const mongoose = require('../db/connection.js')
 const Schema = mongoose.Schema
 
 const Entry = new Schema({
     weekNumber: Number,
-    contents: String,
+    content: String,
     dateCreated: {
         type: Date,
         default: Date.now()
