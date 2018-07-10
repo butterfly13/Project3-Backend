@@ -1,13 +1,12 @@
 const Entry = require("../models/Entry");
-const listData = require("./list.json");
+const listData = require("./list");
 
-Entry.remove({})
-  .then(() => {
-    Entry.collection.insert(listData).then(items => {
-      console.log(items);
-      process.exit();
-    });
-  })
-  .catch(err => {
-    console.log(err);
+listData.forEach(entry => {
+  console.log(entry);
+  Entry.create({
+    weekNumber: entry.weekNumber,
+    content: entry.content
+  }).then(doneEntry => {
+    doneEntry.save();
   });
+});
