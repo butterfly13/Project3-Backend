@@ -13,8 +13,8 @@ module.exports = {
   },
   // create new entry
   createTopic: (req, res) => {
-    const content = req.body.content;
-
+    let content = req.body.newLunchTopic.content;
+    console.log(req.body.newLunchTopic.content)
     LunchTopic.create({
       content: content
     })
