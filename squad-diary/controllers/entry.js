@@ -43,5 +43,15 @@ module.exports = {
       .catch(err => {
         console.log(err);
       });
+  };
+  // show matching search week number
+  // Will revisit this code again later
+  show: (req, res) => {
+    Entry.find({weekNumber: req.params.weekNumber})
+    .then(entry => {
+      res.json(entry)
+    })
+    .catch(err => console.log(err))
   }
+
 };
