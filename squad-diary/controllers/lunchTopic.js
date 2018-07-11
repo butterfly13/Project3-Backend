@@ -11,7 +11,7 @@ module.exports ={
             console.log(err)
         })
     };
-
+    // create new entry
     createTopic: (req, res) => {
         const content = req.body.content
 
@@ -24,5 +24,7 @@ module.exports ={
         .catch(err => {
             console.log(err)
         })
-    }
+    };
+
+
 }

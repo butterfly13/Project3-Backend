@@ -30,7 +30,20 @@ module.exports = {
     };
 
     // delete entry
-    
+    deleteEntry: (req, res) => {
+        Entry.findByIdAndRemove(req.params.id)
+        .then(entry => {
+            if(!entry){
+                return res.status(404).send({
+                    message: 'Entry not find with id ' + req.params.id
+                })
+            }
+            res.send({message: 'Entry is deleted'})
+        }).catch(err => {
+            console.log(err)
+        })
+    }
 
 
 }
+
