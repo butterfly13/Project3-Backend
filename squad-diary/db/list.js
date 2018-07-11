@@ -17,7 +17,7 @@ module.exports = [
   },
   {
     weekNumber: 3,
-    contents: "Project week",
+    content: "Project week",
     dateCreated: {
       type: Date,
       default: Date.now()
@@ -25,7 +25,7 @@ module.exports = [
   },
   {
     weekNumber: 4,
-    contents: "We are developers now we can do whatever we want",
+    content: "We are developers now we can do whatever we want",
     dateCreated: {
       type: Date,
       default: Date.now()
@@ -33,7 +33,7 @@ module.exports = [
   },
   {
     weekNumber: 5,
-    contents: "Everyone is confused",
+    content: "Everyone is confused",
     dateCreated: {
       type: Date,
       default: Date.now()
@@ -41,7 +41,7 @@ module.exports = [
   },
   {
     weekNumber: 6,
-    contents: "Half of the class did not make it to the second project",
+    content: "Half of the class did not make it to the second project",
     dateCreated: {
       type: Date,
       default: Date.now()
@@ -49,7 +49,7 @@ module.exports = [
   },
   {
     weekNumber: 7,
-    contents: "React is cool",
+    content: "React is cool",
     dateCreated: {
       type: Date,
       default: Date.now()
@@ -57,7 +57,7 @@ module.exports = [
   },
   {
     weekNumber: 8,
-    contents: "Group project!!!",
+    content: "Group project!!!",
     dateCreated: {
       type: Date,
       default: Date.now()
@@ -65,7 +65,7 @@ module.exports = [
   },
   {
     weekNumber: 9,
-    contents: "We are not there yet",
+    content: "We are not there yet",
     dateCreated: {
       type: Date,
       default: Date.now()
