@@ -1,6 +1,6 @@
 {
+  "version": "1.0.0",
   "name": "squad-diary",
-  "version": "0.0.0",
   "private": true,
   "main": "app.js",
   "scripts": {
@@ -26,7 +26,15 @@
     "request": "^2.87.0"
   },
   "devDependencies": {},
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butterfly13/Project3-Backend.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/butterfly13/Project3-Backend/issues"
+  },
+  "homepage": "https://github.com/butterfly13/Project3-Backend#readme"
 }
