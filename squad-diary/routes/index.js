@@ -1,10 +1,7 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
 
-
-router.use('/entry', require('./entry'));
-router.use('/topic', require('./lunchTopic'));
-
+router.use("/entry", require("./entry"));
+router.use("/", require("./lunchTopic"));
 
 module.exports = router;
-
