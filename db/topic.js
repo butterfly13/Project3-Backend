@@ -34,5 +34,8 @@ module.exports = [
   },
   {
     content: "Straw usage issues"
+  },
+  {
+    content: "Is it possible to kill a person with a single strand of hair?"
   }
 ];
