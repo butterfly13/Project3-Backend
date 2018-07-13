@@ -11,7 +11,7 @@ module.exports = [
   {
     weekNumber: 2,
     content:
-      "Welcome to GA! Tips:\n1. It is always fridgid here. Bring a jacket\n2. Don't forget to check-in before 9am\nWDI19",
+      "Welcome to GA! Tips:\n1. It is always fridgid here. Bring a jacket\n2. Don't forget to check-in before 9am\n WDI19",
     dateCreated: {
       type: Date,
       default: Date.now()
