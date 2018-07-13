@@ -3,16 +3,16 @@ const LunchTopic = require("../models/LunchTopic");
 const listData = require("./list");
 const topic = require("./topic");
 
-Entry.remove({})
-  .then(() => {
-    Entry.collection.insert(listData).then(entries => {
-      console.log(entries);
-      process.exit();
-    });
-  })
-  .catch(err => {
-    console.log(err);
-  });
+// Entry.remove({})
+//   .then(() => {
+//     Entry.collection.insert(listData).then(entries => {
+//       console.log(entries);
+//       process.exit();
+//     });
+//   })
+//   .catch(err => {
+//     console.log(err);
+//   });
 
 LunchTopic.remove({}).then(() => {
   LunchTopic.collection
